@@ -20,10 +20,10 @@ CREATE TABLE roles(
 );
 
 CREATE TABLE employee(
-    id - INTEGER AUTO_INCREMENT NOT NULL, 
-    first_name - VARCHAR(30),
-    last_name - VARCHAR(30),
-    role_id - INTEGER NOT NULL,
-    manager_id - INTEGER,
+    id INTEGER AUTO_INCREMENT NOT NULL, 
+    first_name VARCHAR(30),
+    last_name VARCHAR(30),
+    role_id INTEGER NOT NULL,
+    manager_id INTEGER,
     PRIMARY KEY (id)
 );
